@@ -1,0 +1,66 @@
+body{
+    background:#661d32;
+    color:#FBEEE1;
+    font-family:"Cormorant Garamond", serif;
+    margin:0;
+}
+
+h1{
+    font-family: "Yesteryear", cursive;
+    text-align: center;
+    font-size:3rem;
+    color:
+
+}
+
+
+
+h2,h3{
+    font-family:"Cormorant Garamond", serif;
+    letter-spacing:1px;
+    text-align: center;
+    color: #F2F3F1;
+
+}
+
+header{
+    text-align: center;
+
+
+}
+
+#hero, footer {
+    text-align: center;
+
+}
+
+#bio{
+    text-align: center;
+    font-size: 14pt;
+    color: #FBEEE1;
+}
+
+#Pieces{
+    background-color: #a3a693;
+    border: #661d32 1px solid;
+
+}
+
+#pieces img {
+
+}
+#services{
+    margin-bottom: 20px;
+    font-size: 14pt;
+    font-weight: bold;
+    padding: 10px;
+
+
+}
+
+#services img {
+    max-width: 100%;
+    border-color: #661d32 1px solid;
+
+
+}
