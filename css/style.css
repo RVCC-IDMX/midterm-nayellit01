@@ -1,36 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background:#661d32;
     color:#FBEEE1;
-    font-family:"Cormorant Garamond", serif;
-    margin:0;
+    font-family:"Josefin Sans", sans-serif;
 }
 
 h1{
-    font-family: "Yesteryear", cursive;
+    font-family: "Lugrasimo", cursive;
     text-align: center;
-    font-size:3rem;
-    color:
-
+    font-size:2.5rem;
 }
 
 
 
 h2,h3{
-    font-family:"Cormorant Garamond", serif;
+    font-family:"Lugrasimo", cursive;
     letter-spacing:1px;
     text-align: center;
-    color: #F2F3F1;
-
+    color: #FBEEE1;
 }
+
+/*WELCOME*/
 
 header{
+    background-image: url("/img/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     text-align: center;
-
-
+    text-shadow: 4px 2px 4px black;
 }
+
+
 
 #hero, footer {
     text-align: center;
+    font-size: 1.5rem;
 
 }
 
@@ -38,6 +54,9 @@ header{
     text-align: center;
     font-size: 14pt;
     color: #FBEEE1;
+    padding: 2rem;
+
+
 }
 
 #Pieces{
