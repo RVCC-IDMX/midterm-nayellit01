@@ -16,13 +16,27 @@ h1{
     font-size:2.5rem;
 }
 
-
-
-h2,h3{
+h2{
     font-family:"Lugrasimo", cursive;
+    font-size: 1.5rem;
     letter-spacing:1px;
     text-align: center;
     color: #FBEEE1;
+    padding:1rem;
+}
+
+h3 {
+    font-family:"Lugrasimo", cursive;
+    font-size: 1.5rem;
+    letter-spacing:1px;
+    text-align: center;
+    color: #30302B;
+    padding:1rem
+
+}
+
+hr{
+    color: #BABCAE;
 }
 
 /*WELCOME*/
@@ -47,6 +61,7 @@ header{
 #hero, footer {
     text-align: center;
     font-size: 1.5rem;
+    padding: 2rem;
 
 }
 
@@ -59,15 +74,28 @@ header{
 
 }
 
-#Pieces{
-    background-color: #a3a693;
+/* Thrifted Pieces*/
+#pieces{
+    background-color: #BABCAE;
     border: #661d32 1px solid;
+    color: #30302B;
+    margin: .5rem;
 
 }
 
 #pieces img {
-
+    max-width:90%;
+    border: 3px solid #30302B
 }
+
+#pieces figure{
+    text-align: center;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+}
+
+/*services*/
+
 #services{
     margin-bottom: 20px;
     font-size: 14pt;
