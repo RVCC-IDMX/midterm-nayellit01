@@ -13,12 +13,12 @@ body{
 h1{
     font-family: "Lugrasimo", cursive;
     text-align: center;
-    font-size:2.5rem;
+    font-size:2.7rem;
 }
 
 h2{
     font-family:"Lugrasimo", cursive;
-    font-size: 1.5rem;
+    font-size: 2rem;
     letter-spacing:1px;
     text-align: center;
     color: #FBEEE1;
@@ -27,7 +27,7 @@ h2{
 
 h3 {
     font-family:"Lugrasimo", cursive;
-    font-size: 1.5rem;
+    font-size: 2rem;
     letter-spacing:1px;
     text-align: center;
     color: #30302B;
@@ -56,18 +56,25 @@ header{
     text-shadow: 4px 2px 4px black;
 }
 
-
-
-#hero, footer {
+#hero {
+    background-color: #BABCAE;
+    color: #30302B;
     text-align: center;
     font-size: 1.5rem;
     padding: 2rem;
 
 }
 
+footer {
+    font-size: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    padding: 2rem;
+}
+
 #bio{
     text-align: center;
-    font-size: 14pt;
+    font-size: 1.1rem;
     color: #FBEEE1;
     padding: 2rem;
 
@@ -79,35 +86,123 @@ header{
     background-color: #BABCAE;
     border: #661d32 1px solid;
     color: #30302B;
-    margin: .5rem;
+    padding: .5rem;
+    font-size: 1.1rem;
 
 }
 
 #pieces img {
     max-width:90%;
-    border: 3px solid #30302B
+    border: 3px solid #30302B;
 }
 
 #pieces figure{
     text-align: center;
-    padding-bottom: .5rem;
-    padding-top: .5rem;
+}
+
+#pieces figcaption{
+    padding: .5rem;
+
 }
 
 /*services*/
 
 #services{
-    margin-bottom: 20px;
-    font-size: 14pt;
-    font-weight: bold;
-    padding: 10px;
-
-
+    margin: .5rem;
+    padding: .5rem;
+    font-size: 1.1rem;
+    text-align: center;
 }
 
 #services img {
     max-width: 100%;
-    border-color: #661d32 1px solid;
+    border: #BABCAE 2px solid;
+}
 
+#services figcaption{
+    padding: .5rem;
+}
+
+#reviews {
+    background-color: #BABCAE;
+    padding: 1rem;
 
 }
+
+#reviews div {
+    border: #30302B 5px solid;
+    background-color: #30302B;
+    margin: .5rem;
+    padding: 2rem;
+}
+
+
+@media screen and (min-width: 1280px) {
+
+    #pieces {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr; /* Creates 3 equal columns for images */
+    }
+
+    #pieces h3 {
+        grid-column: 1 / -1;
+        text-align: center;
+}
+
+    #pieces figcaption {
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+    }
+
+    #pieces figure img{
+        width:100%;
+    }
+
+    /*services*/
+
+    #services {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    #services figcaption {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1rem;
+        font-size: 1.5rem;
+    }
+
+    #services img{
+        width: 100%;
+        max-width:50%
+
+    }
+
+    hr{
+        display:none
+    }
+   #services h2{
+        grid-column: 1/-1;
+
+    }
+
+    /*reviews*/
+
+    #reviews{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 1.5rem;
+}
+
+    #reviews h3{
+        grid-column: 1 / -1;
+        text-align: center;
+    }
+
+    }
+
+
+/* Style each review box *
